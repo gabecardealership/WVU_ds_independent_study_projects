@@ -9,6 +9,8 @@ https://www.kaggle.com/code/gabecardella/ds495-weatherapirequests
 ### Project 2: Topic Modeling:
 Using Amazon customer reviews of appliances, created an LDA Topic Modeling Model that identifies the underlying topics that are found in the large corpus of reviews. These reviews were preprocessed and cleaned as well. I then visualized each topic using documents (cleaned reviews) high concentration of a specific topic to discover insights regarding what each topic represents.
 
+Note that due to a very large file size, the "Appliances.json" file that is referenced when reading in the data is not present (git lfs still being worked out). For the time being, feel free to download the appliances dataset from the link at the top of the .ipynb file.
+
 ### Project 3: Lego Image Classification
 Created several Convolutional Neural Network (CNN) models to predict the type of Lego Brick that was present in images of Lego pieces. There were a total of 16 (balanced) classes of Lego Bricks, with the best model having an accuracy of 89%. I utilized data generators (to read the image data in batches from a directory and introduce modified images), GPUs, and transfer learning using the VGG16 pre-trained CNN from ImageNet.
 
